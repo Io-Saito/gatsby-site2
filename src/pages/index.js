@@ -43,7 +43,10 @@ const pageStylesMobile={
 // markup
 const IndexPage = () => {
   var Style={}
-  var Width = typeof window !== `undefined` ? require(window).innerWidth : null
+  // var Width = typeof window !== `undefined` ? require(window).innerWidth : null
+  if (typeof window !== 'undefined') {
+  var Width=window.innerWidth
+}
   // var Width=window.innerWidth
     console.log(Width)
       if(Width<600){

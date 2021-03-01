@@ -56,8 +56,10 @@ const useStyles = makeStyles({
 
 const HeaderPage = () => {
   var classes = useStyles();
-  var Width = typeof window !== `undefined` ? require(window).innerWidth : null
-  // var Width=window.innerWidth
+  // var Width = typeof window !== `undefined` ? require(window).innerWidth : null
+  if (typeof window !== 'undefined') {
+  var Width=window.innerWidth
+}
 
   var classH1;
   var classH4;
