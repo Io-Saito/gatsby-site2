@@ -23,8 +23,8 @@ function ListLow(data){
 
 const WorksPage = () =>{
   var Direction="column"
-  // var Width = typeof window !== `undefined` ? require(window.innerWidth) : null
-  var Width=window.innerWidth
+  var Width = typeof window !== `undefined` ? require(window.innerWidth) : null
+  // var Width=window.innerWidth
   console.log(Width)
   switch(true){
     case Width<600:
