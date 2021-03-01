@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "gatsby-site2",
+    title: "My Gatsby Site",
   },
   plugins: [
     "gatsby-plugin-mdx",
@@ -13,4 +13,9 @@ module.exports = {
       __key: "pages",
     },
   ],
+  
+};
+module.exports = {
+  plugins: [`gatsby-plugin-material-ui`],
+
 };
