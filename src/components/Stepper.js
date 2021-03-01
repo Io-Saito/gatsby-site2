@@ -7,6 +7,7 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import Grid from "@material-ui/core/Grid"
 
 const theme = createMuiTheme({
   typography: {
@@ -29,7 +30,7 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '60%',
+    width: '100%',
   },
   button: {
     marginTop: theme.spacing(1),
@@ -77,6 +78,7 @@ const VerticalLinearStepper=(props)=> {
   return (
     <div className={classes.root}>
       <ThemeProvider theme={theme}>
+        <Grid container justify="center" >
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((label, index) => (
           <Step key={label}>
@@ -112,8 +114,10 @@ const VerticalLinearStepper=(props)=> {
           <Button onClick={handleReset} className={classes.button}>
             Reset
           </Button>
+          
         </Paper>
       )}
+      </Grid>
       </ThemeProvider>
     </div>
   );
