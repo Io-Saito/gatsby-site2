@@ -58,6 +58,7 @@ const HeaderPage = () => {
   var classes = useStyles();
   var Width = typeof window !== `undefined` ? require(window.innerWidth) : null
   // var Width=window.innerWidth
+  
   var classH1;
   var classH4;
   if(Width >600){

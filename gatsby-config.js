@@ -12,10 +12,7 @@ module.exports = {
       },
       __key: "pages",
     },
-  ],
+    `gatsby-plugin-material-ui`
+  ]
   
-};
-module.exports = {
-  plugins: [`gatsby-plugin-material-ui`],
-
 };
