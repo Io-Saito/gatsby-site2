@@ -6,7 +6,7 @@ import CardUI from "../components/CardUI"
 /*この辺の代わりうるデータをデータベースにぶち込みたい。いずれ。 */
 var WorkData=[
   {title:"研修先投票アプリ",date:"2020-9-20",img:"/static/images/cards/20210104202742.jpg",tools:"Javascript,Python,Vue.js,Flask,Firebase",href:"http://localhost:8080/",paragraphs:["福島県立大学の人たちのためにがんばりました。","めっちゃしんどかったです。","バックエンドサーバーをFlaskでぶったてたので、Herokuも使いました"],key:0},
-  {title:"Recipicks",date:"2021-3-20",img:"/static/images/cards/noimage.jpg",tools:"Javascript,React,Node.js,Firebase",href:"http://localhost:8080/",paragraphs:["これから頑張る","めっちゃ頑張る","うおおおおお"],key:1},
+  // {title:"Recipicks",date:"2021-3-20",img:"/static/images/cards/noimage.jpg",tools:"Javascript,React,Node.js,Firebase",href:"http://localhost:8080/",paragraphs:["これから頑張る","めっちゃ頑張る","うおおおおお"],key:1},
   {title:"このポートフォリオ",date:"2021-2-27",img:"/static/images/cards/portfolio.png",tools:"Javascript,React,Gatsby",href:"http://localhost:8080/",paragraphs:["React練習用として作りました。Reactめっちゃ楽しい！！！！書きやすい!!!!好き!!!!"],key:2}
 ]
 
