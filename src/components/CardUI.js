@@ -16,8 +16,7 @@ import ParagraphMaker from "../functions/ParagraphMaker"
 const CardStyle = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    Width: "150%",
-    minWidth : 300
+    Width: "100%"
   },
   media: {
     height: 194,

@@ -33,14 +33,9 @@ const StyledTab = withStyles((theme) => ({
 }))((props) => <Tab disableRipple {...props} />);
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  padding: {
-    padding: theme.spacing(2),
-  },
   demo2: {
     backgroundColor: '#0a6788',
+    width: '100%'
   },
 }));
 
