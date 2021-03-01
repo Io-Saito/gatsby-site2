@@ -15,7 +15,7 @@ import ContactsIcon from '@material-ui/icons/Contacts';
 import "@fontsource/quicksand";
 
 const headings=[
-  {section:"feather-section",title:"PROFILE!",icon:<PersonOutlineIcon style={{ fontSize: 40 }}/>},
+  {section:"feather-section",title:"PROFILE",icon:<PersonOutlineIcon style={{ fontSize: 40 }}/>},
   {section:"work-section",title:"WORK",icon:<WebIcon style={{ fontSize: 40 }}/>},
   {section:"skills-section",title:"SKILL",icon:<CodeIcon style={{ fontSize: 40 }}/>},
   {section:"carrers-section",title:"CARRER",icon:<WorkOutlineIcon style={{ fontSize: 40 }}/>},
