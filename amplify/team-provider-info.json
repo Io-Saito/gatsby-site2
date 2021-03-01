@@ -1,0 +1,15 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iorinportfolio-master-34318-authRole",
+      "UnauthRoleArn": "arn:aws:iam::085181924991:role/amplify-iorinportfolio-master-34318-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::085181924991:role/amplify-iorinportfolio-master-34318-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-iorinportfolio-master-34318-deployment",
+      "UnauthRoleName": "amplify-iorinportfolio-master-34318-unauthRole",
+      "StackName": "amplify-iorinportfolio-master-34318",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:085181924991:stack/amplify-iorinportfolio-master-34318/fe89e670-7abd-11eb-9cd4-0afff3dcfee2",
+      "AmplifyAppId": "dquxfc9jf3liu"
+    }
+  }
+}
