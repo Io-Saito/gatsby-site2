@@ -7,7 +7,9 @@ import CardUI from "../components/CardUI"
 var WorkData=[
   {title:"研修先投票アプリ",date:"2020-9-20",img:"/static/images/cards/20210104202742.jpg",tools:"Javascript,Python,Vue.js,Flask",href:"https://voting-283308.web.app",paragraphs:["受託で作りました。","UIデザインにはBootStrap-Vue","データベースや認証にはFirebaseを使いました。"],key:0},
   // {title:"Recipicks",date:"2021-3-20",img:"/static/images/cards/noimage.jpg",tools:"Javascript,React,Node.js,Firebase",href:"http://localhost:8080/",paragraphs:["これから頑張る","めっちゃ頑張る","うおおおおお"],key:1},
-  {title:"このポートフォリオ",date:"2021-2-27",img:"/static/images/cards/portfolio.png",tools:"Javascript,React,Gatsby",href:"https://iorinportfolio.gtsb.io/",paragraphs:["React.js練習用として作りました。","UIデザインはMaterial-UIプラグインを使い、","カードが映えるデザインにしました。"],key:2}
+  {title:"このポートフォリオ",date:"2021-2-27",img:"/static/images/cards/portfolio.png",tools:"Javascript,React,Gatsby",href:"https://iorinportfolio.gtsb.io/",paragraphs:["React.js練習用として作りました。","UIデザインはMaterial-UIプラグインを使い、","カードが映えるデザインにしました。"],key:2},
+  {title:"電子書籍検索LineBot",date:"2021-3-10",img:"/static/images/cards/LIbbot.png",tools:"GAS,Python,Beautifulsoup",href:"/",paragraphs:["学術機関認証で読むことができる電子書籍を検索できるLINEBotです。","BeautifulSoupでスクレイピングしたデータをSpreadsheetに格納し,ユーザーのメッセージを受け付けて検索結果を返します。","サーバーはGASで立てました。"],key:2}
+
 ]
 
 
