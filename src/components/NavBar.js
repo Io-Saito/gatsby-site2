@@ -37,6 +37,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#0a6788',
     width: '100%'
   },
+  mobile: {
+    backgroundColor: '#0a6788',
+  visibility: 'hidden'
+  }
 }));
 
 
@@ -46,8 +50,11 @@ const CustomizedTabs= (props) => {
     for (var r in props){
         StyledTabList.push(<StyledTab label={props[r].text} href={props[r].href}></StyledTab>)
     }
+     if (typeof window !== 'undefined') {
+  var Width=window.innerWidth
+}
   return (
-      <div className={classes.demo2}>
+      <div className={Width>=500 ? classes.demo2 : classes.mobile}>
           <Grid container xs={12} justify="center" >
         <StyledTabs value={props}  aria-label="styled tabs example">
           {StyledTabList}

@@ -24,7 +24,6 @@ const CardStyle = makeStyles((theme) => ({
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -38,7 +37,6 @@ const CardStyle = makeStyles((theme) => ({
 const CardUI= (props)=> {
   const classes = CardStyle;
   const [expanded, setExpanded] = React.useState(false);
-  console.log(props.img)
   const handleExpandClick = () =>{
     setExpanded(!expanded);
   };
@@ -75,7 +73,7 @@ const CardUI= (props)=> {
           <Typography paragraph>リンク</Typography>
           <a href={props.href}>{props.href}</a>
           <Typography paragraph>説明</Typography>
-          {ParagraphMaker(props.paragraphs)}
+            {ParagraphMaker(props.paragraphs)}
         </CardContent>
       </Collapse>
     </Card>

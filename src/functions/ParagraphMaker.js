@@ -2,12 +2,12 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 const ParagraphMaker = (props)=>{
-  var paragraphlist=[]
-  for(var i in props){
-    paragraphlist.push(<Typography paragraph>{props[i]}</Typography>)
-  }
+  
+  
   return(
-    paragraphlist
+    <Typography>{props.map((t, i) => {
+        return <div key={i}>{t}</div>
+    })}</Typography>
   )
 }
 export default ParagraphMaker

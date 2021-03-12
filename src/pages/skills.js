@@ -33,7 +33,7 @@ const SkillData=[
     },
     Paragraph:"普段からPythonをよく使います。RestAPIが必要な時はFlask＋Herokuで作ることが多いです。サーバーサイドの技術にはあまり触れたことがないので、今後はLaravelPHPやNode.jsに触れてみたいと思います。SQLはSQLiteで触りました。また、GoogleAPIを触る際にGASを使いました。"
     },
-    {Title:"DataScience/Machine Learning",
+    {Title:"Data Science/Machine Learning",
     Rader:{
             labels: ['Python(Pytorch)', 'Stats.', 'Algolythms', 'CV', 'NLP'],
             datasets: [
