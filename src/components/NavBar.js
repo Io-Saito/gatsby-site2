@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
   mobile: {
     backgroundColor: '#0a6788',
-  visibility: 'hidden'
+    visibility: 'hidden'
   }
 }));
 
@@ -59,7 +59,7 @@ const CustomizedTabs= (props) => {
         <StyledTabs value={props}  aria-label="styled tabs example">
           {StyledTabList}
         </StyledTabs>
-        <Typography className={classes.padding} />
+        <Typography  />
         </Grid>
       </div>
   );

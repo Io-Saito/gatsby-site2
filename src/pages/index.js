@@ -34,9 +34,9 @@ const pageStyles = {
 const pageStylesMobile={
   color: "#232129",
   backgroundColor: "#f0f0f0",
-  Width: "95%",
-  paddingRight: "3%",
-  paddingLeft: "3%",
+  Width: "100%",
+  paddingRight: "2%",
+  paddingLeft: "2%",
   fontFamily: 'quicksand'
 }  
 
